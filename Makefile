@@ -5,7 +5,7 @@ clean:
 	find . -name "*.pyc" -delete
 	find . -name "*.class" -delete
 
-PREFIX ?= /opt/imnx
+PREFIX ?= /usr/local
 BINDIR ?= $(PREFIX)/bin
 MANDIR ?= $(PREFIX)/man
 SHAREDIR ?= $(PREFIX)/share
